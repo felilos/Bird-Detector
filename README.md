@@ -25,7 +25,7 @@ High Level Step-by-Step:
 6. Test your project on variety of pictures, e.g. take pictures off a monitor displaying birds, other animals, or backgrounds. -> This is shown in the demonstration_video.mp4 file, have a look.
 
 Outcome:
-- Approx. 4 sec processing time from command to bird detection probablity outcome
+- Approx. 4 second processing time from command to bird detection probablity outcome
 - 95% accuracy for images in city and green-nature enviorments -> more training needed for sky and sea photography
 - Proficicency in debugging for building software and debugging scripts
 - Proficency in use of TensorFlow and OpenCV
