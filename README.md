@@ -1,6 +1,6 @@
 # Bird-Detector
 
-ABOUT:
+About:
 An embeedded camera vision & AI project, using a self-trained TensorFlow Lite model to detect Birds. Project is intended to run on a BeagleBone Black with use of OpenCV. Uses a specially formated mini SD card, flashed with a customised, minimal Debian Bookworm image, faciliting neural networking based AI in a low-resource enviorment (0.5GB RAM, 1GHz CPU).
 
 Materials/Resources required:
