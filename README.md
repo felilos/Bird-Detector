@@ -26,7 +26,7 @@ High Level Step-by-Step:
 
 Outcome:
 - Approx. 4 second processing time from command to bird detection probablity outcome
-- 95% accuracy for images in city and green-nature enviorments -> more training needed for sky and sea photography
+- 97% accuracy for images in city and nature enviorments (as per training data set); shortfalls on non-nature objects; such as: planes, indoor images
 - Proficicency in debugging for building software and debugging scripts
 - Proficency in use of TensorFlow and OpenCV
 - Proficency in navigating Linux
