@@ -4,6 +4,7 @@ About:
 An embeedded camera vision & AI project, using a self-trained TensorFlow Lite model to detect Birds. Project is intended to run on a BeagleBone Black with use of OpenCV. Uses a specially formated mini SD card, flashed with a customised, minimal Debian Bookworm image, faciliting neural networking based AI in a low-resource enviorment (0.5GB RAM, 1GHz CPU).
 
 Project Objectives:
+- Accurately detect birds for images taken with the embedded system
 - Integrate a Neural Network, image processing, image capture on a low-resource embedded system (BeagleBone Black)
 - Self-train a Neural Network for image processing (with TensorFlow) from scratch with high accuracy for detecting birds
 - Learn how to configure a bookworm image for the use of large software on a low-resource embedded system
