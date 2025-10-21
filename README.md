@@ -98,7 +98,7 @@ If you believe any additional license attribution is needed, please reach out.
 
 ## 💬 Author
 
-**Your Name**  
-📧 your.email@example.com  
-🌐 [GitHub Profile](https://github.com/yourusername)
+**felilos**  
+📧 dnbtodubsteptofac@gmail.com  
+
 
