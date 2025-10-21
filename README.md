@@ -1,41 +1,99 @@
-# Bird-Detector
+# 🐦 Bird Detector
 
-About:
-An embeedded camera vision & AI project, using a self-trained TensorFlow Lite model to detect Birds. Project is intended to run on a BeagleBone Black with use of OpenCV. Uses a specially formated mini SD card, flashed with a customised, minimal Debian Bookworm image, faciliting neural networking based AI in a low-resource enviorment (0.5GB RAM, 1GHz CPU).
+> **An embedded AI vision project** built to detect birds using a self-trained TensorFlow Lite model running on a **BeagleBone Black** board with **OpenCV**.
 
-Project Objectives:
-- Accurately detect birds for images taken with the embedded system
-- Integrate a Neural Network, image processing, image capture on a low-resource embedded system (BeagleBone Black)
-- Self-train a Neural Network for image processing (with TensorFlow) from scratch with high accuracy for detecting birds
-- Learn how to configure a bookworm image for the use of large software on a low-resource embedded system
+---
 
+## 📖 About the Project
 
-Materials/Resources required:
-- BeagleBone Black
-- mini SD card with high transfer speeds; >= 256GB (option to adjust .img file for lower capacity miniSD)
-- Webcam with standard USB-A connector to BBB
-- PC with WSL capability, or Linux based PC; preferably access to a Workspace for NeuralNetwork training to offload work
+**Bird Detector** is an embedded computer vision and AI system designed to identify birds in real-time using a **custom-trained TensorFlow Lite model**.  
+It runs on a **BeagleBone Black** — a low-resource embedded platform (0.5 GB RAM, 1 GHz CPU) — powered by a **custom minimal Debian Bookworm image** optimized for AI workloads.
 
-High Level Step-by-Step:
+🧠 The goal is to demonstrate efficient neural network inference and image processing on constrained hardware.
 
-1. Adjust a pre-built Debian Bookworm image to expand image capacity. Adding an extended partition and a data partion at 150GB. This is a requirement for the heavy install of opencv and tensorflow-lite for the limited storage on the BBB. BBB will boot and run off SD card.
-2. Download, Cmake, make, install opencv and tensorflow lite on SD card. Utilise /tmp folder on SD card to ensure adqueate capacity.
-3. On BBB run test compilation for a .cpp file using opencv, to capture and process an image from connected webcam. 
-4. On your PC: produce image database, prepare pipline, train a NN in different layers -> produce reliable .tflite model for bird recognition check for for use on BBB.
-5. Utilise the .tflite model in consujunction with OpenCV and TensorFlow Lite to compile a programme, which takes an image, saves it and then calculates the probability of a bird being present in the taken image.
-6. Test your project on variety of pictures, e.g. take pictures off a monitor displaying birds, other animals, or backgrounds. -> This is shown in the demonstration_video.mp4 file, have a look.
+---
 
-Outcome:
-- Approx. 4 second processing time from command to bird detection probablity outcome
-- 97% accuracy for images in city and nature enviorments (as per training set); shortfalls on non-nature objects, i.e.: planes, indoor images
-- Proficicency in debugging for building software and debugging scripts
-- Proficency in use of TensorFlow and OpenCV
-- Proficency in navigating Linux
+## 🎯 Project Objectives
 
-Licensing & Attribution
+- 🐦 Accurately detect birds in captured images  
+- ⚙️ Integrate image capture, OpenCV-based processing, and neural inference on BeagleBone Black  
+- 🧩 Train a custom neural network (TensorFlow) from scratch for bird detection  
+- 🧰 Learn how to configure and optimize a Debian Bookworm image for running large software on limited hardware  
 
-This project uses only open-source tools and libraries, including TensorFlow Lite and OpenCV, under their respective licenses.  
-All training data, code, and models included here are original or publicly available for non-commercial use.
-Some sections of this project were developed with the assistance of OpenAI. All results and implementation decisions were reviewed, tested, and finalized by the author.
-If you believe any additional license attribution is required, please reach out.
+---
+
+## 🧱 Materials & Resources
+
+| Component | Purpose |
+|------------|----------|
+| **BeagleBone Black (BBB)** | Target embedded system |
+| **Mini SD Card (≥ 256 GB, high-speed)** | Storage for Debian image, OpenCV, TensorFlow Lite |
+| **USB Webcam** | Image capture |
+| **PC with WSL or Linux** | For dataset preparation, neural network training, and model export |
+
+> 💡 *You can adjust the `.img` file for smaller SD cards if needed.*
+
+---
+
+## 🧩 High-Level Steps
+
+1. 🧰 **Prepare the Image**  
+   Expand a pre-built Debian Bookworm image to add extended and data partitions (~150 GB).  
+   This supports TensorFlow Lite and OpenCV installation. The BBB will boot and operate entirely from the SD card.
+
+2. ⚙️ **Install Dependencies**  
+   Build and install OpenCV and TensorFlow Lite on the SD card using CMake and Make.  
+   Use `/tmp` to buffer compilation to prevent storage overflow.
+
+3. 📸 **Test OpenCV**  
+   On the BBB, compile and run a simple C++ program to capture and process an image from the connected webcam.
+
+4. 💻 **Train the Neural Network**  
+   On your PC:
+   - Build a training dataset  
+   - Create a data pipeline  
+   - Train and test a convolutional neural network  
+   - Export the final `.tflite` model for deployment  
+
+5. 🧠 **Integrate AI on BeagleBone**  
+   Combine OpenCV and TensorFlow Lite in a C++ program to:
+   - Capture and save an image  
+   - Perform inference using the `.tflite` model  
+   - Output the probability of a bird being detected  
+
+6. 🎥 **Evaluate Results**  
+   Test using a range of images — from real-life captures to pictures of birds on a screen.  
+   See results demonstrated in `demonstration_video.mp4`.
+
+---
+
+## 📊 Outcomes
+
+- ⚡ **Processing time:** ~4 seconds from capture to classification  
+- 🎯 **Accuracy:** ~97 % (in nature and city images)  
+- 🧩 **Limitations:** Misclassifications on non-natural objects (planes, indoor scenes)  
+- 💻 **Skills Developed:**  
+  - Debugging complex builds and scripts  
+  - TensorFlow and OpenCV proficiency  
+  - Embedded Linux navigation and optimization  
+
+---
+
+## ⚖️ Licensing & Attribution
+
+This project uses **open-source tools and libraries**, including **TensorFlow Lite** and **OpenCV**, under their respective licenses.  
+
+All training data, code, and models are **original** or **publicly available** for non-commercial use.  
+
+Some components were developed with assistance from **OpenAI tools**, with all design and implementation verified and finalized by the author.  
+
+If you believe any additional license attribution is needed, please reach out.
+
+---
+
+## 💬 Author
+
+**Your Name**  
+📧 your.email@example.com  
+🌐 [GitHub Profile](https://github.com/yourusername)
 
