@@ -7,7 +7,7 @@
 ## 📖 About the Project
 
 **Bird Detector** is an embedded computer vision and AI system designed to identify birds in real-time using a **custom-trained TensorFlow Lite model**.  
-It runs on a **BeagleBone Black** — a low-resource embedded platform (0.5 GB RAM, 1 GHz CPU) — powered by a **custom minimal Debian Bookworm image** optimized for AI workloads.
+It runs on a **BeagleBone Black** — a low-resource embedded platform (0.5 GB RAM, 1 GHz CPU) — run on a **custom minimal Debian Bookworm image**.
 
 🧠 The goal is to demonstrate efficient neural network inference and image processing on constrained hardware.
 
