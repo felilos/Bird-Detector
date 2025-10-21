@@ -97,11 +97,5 @@ Some components were developed with assistance from **OpenAI tools**, with all d
 
 If you believe any additional license attribution is needed, please reach out.
 
----
-
-## 💬 Author
-
-**felilos**  
-📧 dnbtodubsteptofac@gmail.com  
 
 
