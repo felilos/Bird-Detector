@@ -67,8 +67,11 @@ It runs on a **BeagleBone Black** — a low-resource embedded platform (0.5 GB R
 
    Exmaple screengrab:
    <img width="2962" height="1819" alt="sample" src="https://github.com/user-attachments/assets/6346c9b2-f9a3-4ddd-bfd0-9e869a2942ce" />
-   Sources & Copyright for images: Bird: https://share.google/images/2Tbj2tCM9aaDRsCms  |   Cow: https://share.google/images/bOBIeDCsq6d1UeGOL
-   
+   📸 Image Sources & Copyright
+   | Image | Source |
+   |--------|---------|
+   | 🐦 **Bird** | [https://share.google/images/2Tbj2tCM9aaDRsCms](https://share.google/images/2Tbj2tCM9aaDRsCms) |
+   | 🐄 **Cow**  | [https://share.google/images/bOBIeDCsq6d1UeGOL](https://share.google/images/bOBIeDCsq6d1UeGOL) |
 
 ---
 
