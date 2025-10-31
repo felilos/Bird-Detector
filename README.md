@@ -66,7 +66,8 @@ It runs on a **BeagleBone Black** — a low-resource embedded platform (0.5 GB R
    See results demonstrated in `demonstration_video.mp4`.
 
    Exmaple screengrab:
-   <img width="2962" height="1819" alt="sample" src="https://github.com/user-attachments/assets/6346c9b2-f9a3-4ddd-bfd0-9e869a2942ce" />
+<img width="3671" height="1808" alt="OutputVsInput" src="https://github.com/user-attachments/assets/6089a627-6612-4c7e-ad00-0ef74b275010" />
+
    📸 Image Sources & Copyright
    | Image | Source |
    |--------|---------|
